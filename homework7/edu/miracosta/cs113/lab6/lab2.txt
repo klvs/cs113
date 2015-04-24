@@ -1,0 +1,8 @@
+Inorder: LNR
+cow house jack lay milked rat that
+
+Preorder: NLR
+house jack cow rat that milked lay
+
+Postorder: LRN
+cow jack house milked that rat lay

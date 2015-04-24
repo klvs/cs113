@@ -1,0 +1,28 @@
+2) hashcode % length 7 13
+position of each 
+
+Tom 1 8
+Dick 0 5 
+Harry 2 9
+Sam 6 4 
+Pete 4 11
+
+
+3) values 14 and 24 were inserted at their positions due to collisions
+14
+24
+6
+20
+
+public static int location(E[] table, E object)
+	int index = object.hashcode() % table.length;
+	while(table[index] == null)
+		if (table[index].equals(object) )
+			return index;
+		else
+			index += 1;
+			index = index % table.length;
+
+
+
+

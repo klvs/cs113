@@ -1,0 +1,21 @@
+Self-check
+1a) n^2
+1b) n
+1c) n^2
+1d) n^2
+
+3)     f(2E3) f(4E3) f(8E3)
+ologn   ~huge  ~huge  ~huge
+on      ~10    ~40    ~80
+onlogn  ~10    ~35    ~60
+on^2    ~20    ~30    ~40
+on^3    ~15    ~20    ~22
+
+4)      20    40
+exp    ~2000  +infinity
+cubic  ~5000  +infinity
+quad   ~2000  ~7000
+loglin ~2000  ~5100
+lin    ~2000  ~4000
+log    ~2000  ~2100
+

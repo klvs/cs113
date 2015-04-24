@@ -1,0 +1,35 @@
+Person.toString{
+	return this.name + \n
+	+ this.SSN + \n 
+	+ this.age + \n
+	+ this.gender + \n
+	+ this.address + \n
+	+ this.telephone + \n
+}
+
+Employee.toString{
+	return super.toString + 
+	+ this.department + \n
+	+ this.yearOfHire + \n
+	+ this.jobTitle + \n
+}
+
+HourlyEmployee.toString{
+	return super.toString + 
+	+ this.hourlyRate + \n
+	+ this.hoursWorked + \n
+	+ this.unionDues + \n
+}
+
+SalaryEmployee.toString{
+	return super.toString + 
+	+ this.salary + \n
+}
+
+Student.toString{
+	return super.toString + 
+	+ this.major + \n
+	+ this.yearOfGraduation + \n
+	+ this.GPA + \n
+}
+
